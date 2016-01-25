@@ -9,7 +9,7 @@
 // Given three numbers as input, find the min, middle and max of the three.
 // Return an array of the numbers in ascending order.
 // Hint: to easily see your output, import java.util.Arrays
-// and use the Arrays.toString(array) method to convert the Array to a string 
+// and use the Arrays.toString(array) method to convert the Array to a string
 // and then log it using System.out.println();
 
 // Example:
