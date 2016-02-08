@@ -1,9 +1,20 @@
-// Using java solve the problem below:
-// Given an array of integers, find the maximum and minimum of this array.
-// create a variable to hod the maximum
-// create a variable to hold the minimum
-// take in the array of numbers
-// begin to loop through them
-// put the lowest in its array 
-// put the highest in its array
-// output the highest then output the lowest
+public class MaxMin {
+    public static void main(String[] args) {
+    
+        // first value read initialized min and max
+        int max = StdIn.readInt();
+        int min = max;
+    
+        // read in the data, keep track of min and max
+        while (!StdIn.isEmpty()) {
+            int value = StdIn.readInt();
+            if (value > max) max = value;
+            if (value < min) min = value;
+        }
+      
+        // output
+        StdOut.println("maximum  = " + max + ", minimum = " + min);
+    }
+}
+
+
