@@ -19,3 +19,23 @@
 // vowelMap.get('i'); // 3
 // vowelMap.get('e'); // 3
 // vowelMap.get('u'); // 3
+public class{
+public int[] vowelCount(String x) {
+    int[] res = new int[5];
+    for (int i=0; i<x.length(); i++) {
+	char ch = x.charAt(i);
+	if (ch == 'a') {
+	    res[0]++;
+	} else if (ch == 'e') {
+	    res[1]++;
+	} else if (ch == 'i') {
+	    res[2]++;
+	} else if (ch == 'o') {
+	    res[3]++;
+	} else if (ch == 'u') {
+	    res[4]++;
+	}
+    }
+    return res;
+  }
+}
