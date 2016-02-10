@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##MS-5-Toy-Problems
   DSA toy problems for cohort 5
 
@@ -19,3 +20,8 @@
   6) To fetch the new toy problem each day from the central repo, you will need to issue the following command:
 
   # $ git pull upstream master
+=======
+# working-space-java
+java problems
+
+>>>>>>> f60da18e3375a3c3414424f5283dbb72cfe3ec51
